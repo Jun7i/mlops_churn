@@ -499,7 +499,7 @@ Password: airflow
 ### Dashboard Components
 
 **Page 1: Executive KPI Dashboard**
-![KPI Dashboard](KPI dashboard.png)
+![Tableau Dashboard](KPIdashboard.png)
 
 **Page 2: Trend Analysis**
 - Line chart: Daily/Weekly high-risk customer count over 60 days
