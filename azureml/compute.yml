@@ -1,0 +1,11 @@
+# TODO: Define AzureML compute cluster configuration
+# - Set compute cluster name
+# - Define VM size (Standard_DS3_v2 or similar for training)
+# - Set min and max nodes for auto-scaling (e.g., 0 min, 4 max)
+# - Configure idle time before scale down
+# - Set up managed identity for secure access
+# - Optional: Configure low-priority VMs for cost savings
+
+$schema: https://azuremlschemas.azureedge.net/latest/amlCompute.schema.json
+
+# Add your compute configuration here

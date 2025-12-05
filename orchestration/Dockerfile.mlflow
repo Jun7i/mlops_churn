@@ -1,0 +1,14 @@
+FROM ghcr.io/mlflow/mlflow:v2.16.2
+
+USER root
+
+# Install psycopg2 for PostgreSQL backend
+RUN pip install --no-cache-dir psycopg2-binary
+
+# Create mlflow artifacts directory with proper permissions
+RUN mkdir -p /mlflow/artifacts && \
+    chmod -R 777 /mlflow/artifacts
+
+USER 1000
+
+EXPOSE 5000

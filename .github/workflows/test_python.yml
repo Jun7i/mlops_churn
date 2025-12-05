@@ -1,0 +1,6 @@
+# TODO: Set up GitHub Actions workflow to run Python tests on pull requests
+# - Set up Python environment (3.9 or 3.10)
+# - Install dependencies from requirements.txt
+# - Run pytest for all tests in src/tests/
+# - Add code coverage reporting with pytest-cov
+# - Optional: Add linting with flake8 or black

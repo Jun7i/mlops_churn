@@ -1,0 +1,12 @@
+# TODO: Define AzureML pipeline as YAML
+# - Define pipeline steps: data preparation, training, evaluation, registration
+# - Specify compute targets for each step
+# - Define inputs (Snowflake connection) and outputs (model artifacts)
+# - Set up component references or script execution
+# - Add parameters for experimentation (model types, hyperparameters)
+# - Configure MLflow tracking integration
+# - Set up conditional model registration (only if metrics threshold met)
+
+$schema: https://azuremlschemas.azureedge.net/latest/pipelineJob.schema.json
+
+# Add your pipeline definition here

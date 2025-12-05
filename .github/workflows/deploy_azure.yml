@@ -1,0 +1,6 @@
+# TODO: Set up GitHub Actions workflow to deploy to Azure ML on merge to main
+# - Authenticate to Azure using Service Principal (GitHub Secrets)
+# - Install Azure ML CLI v2
+# - Submit the AzureML pipeline job from azureml/pipeline.yml
+# - Trigger on merge to main branch only
+# - Optional: Add notification on deployment success/failure

@@ -1,0 +1,14 @@
+# TODO: Define Conda environment for AzureML compute
+# - Specify Python version (3.9 or 3.10)
+# - Add ML libraries: scikit-learn, xgboost, pandas, numpy
+# - Add AzureML SDK and MLflow
+# - Add Snowflake connector for data access
+# - Add data processing libraries (imbalanced-learn for SMOTE)
+# - Add visualization libraries (matplotlib, seaborn)
+
+name: churn-training-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  # Add your dependencies here

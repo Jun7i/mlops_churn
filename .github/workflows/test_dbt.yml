@@ -1,0 +1,6 @@
+# TODO: Set up GitHub Actions workflow to run dbt tests on pull requests
+# - Install dbt-core and dbt-snowflake
+# - Configure Snowflake credentials (use GitHub Secrets)
+# - Run `dbt deps` to install dependencies
+# - Run `dbt test` to validate data quality
+# - Add checks for model compilation with `dbt compile`
